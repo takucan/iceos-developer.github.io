@@ -1,0 +1,336 @@
+main{
+    text-align: center;
+}
+h1{
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+.profile{
+    box-shadow:rgb(204, 204, 204) 0px 0px 10px 5px;
+    border: rgb(54, 128, 146) double 5px;
+    margin: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 0.2s;
+}
+.profile:hover{
+    box-shadow:rgb(204, 204, 204) 0px 0px 10px 2px;
+    cursor: pointer;
+}
+.profile img{
+    height: 250px;
+    padding-bottom: 5px;
+    border-bottom: darkolivegreen 4px solid;
+}
+.le img{
+    height: 260px;
+}
+.p{
+    margin: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkcyan;
+}
+p{
+    margin:5px;
+}
+.le{
+    margin-top: 70px;
+}
+.heading-leader{
+    font-size: 24px;
+    color: rgb(190, 255, 248);
+    text-shadow: rgba(0, 0, 0, 0.548) 0px 0px 5px;
+    border-bottom: rgb(114, 193, 196) dotted 5px;
+}
+.heading-member{
+    font-size: 20px;
+    color: rgb(126, 255, 195);
+    text-shadow: rgba(0, 0, 0, 0.548) 0px 0px 5px;
+    border-bottom: dotted rgb(115, 214, 156) 5px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+    height: 250px;
+    background-color: paleturquoise;
+    padding: 30px;
+    border-top: rgb(123, 180, 180) solid 5px;
+}
+
+
+.list{
+    height: 65px;
+    width: 100%;
+    background-color: rgb(211, 248, 255);
+    margin-top: 0px;
+    position:fixed;
+    left:0%;
+    top: 0%;
+}
+.list img{
+    height: 70px;
+    position: absolute;
+    top:-5px;
+    left:20px;
+    opacity: 0.7;
+    transition: 0.2s;
+}
+.list img:hover{
+    opacity: 1;
+}
+
+.img-item{
+    width: 50%;
+    display: inline-block;
+}
+.text-item{
+    padding-left: 0px;
+    display:inline-block;
+    margin-top:  100px;
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    font-weight: normal;
+    font-family: impact;
+    color:darkslategrey
+}
+
+.btn{
+    text-align: center;
+    margin: 16px;
+    padding:10px 0px;
+    width: 31%;
+    color:white;
+    display:inline-block;
+    opacity:0.8;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    float: left;
+}
+.btn:hover{
+      border-radius: 3px;
+}
+.osdn{
+    background-color:rgb(0, 0, 0);
+    box-shadow:rgb(102, 102, 102) 3px 5px;
+      margin-bottom: 10px;
+}
+.osdn:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgb(58, 58, 58) 3px 3px;
+}
+.youtube{
+    background-color:rgb(255, 0, 0);
+    box-shadow:rgb(145, 0, 0) 3px 5px;
+      margin-bottom: 10px;
+}
+.youtube:hover{
+    background-color: rgb(211, 0, 0);
+    box-shadow: rgb(255, 30, 30) 3px 3px;
+}
+.twitter{
+      background-color: deepskyblue;
+    box-shadow: dodgerblue 3px 5px;
+      margin-bottom: 10px;
+}
+.twitter:hover{
+      background-color: rgb(4, 132, 175);
+
+    box-shadow: dodgerblue 3px 3px;
+}
+.link{
+    text-decoration-style: none;
+    color: grey;
+    padding:20px 30px;
+    float: left;
+    text-decoration: none;
+    font-weight:bold;
+    transition: 0.3s all;
+    height: 30%;
+}
+.about{
+    margin-left: 100px;
+}
+.list a:hover{
+    color:cadetblue;
+    border-bottom: 4px solid cadetblue;
+}
+.header-logo{
+    width: 80%;
+    margin-top: 30px;
+}
+
+.middle{
+    margin-top: 10px;
+}
+
+.go_top{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 14px;
+    right: 10px;
+    background-color: rgb(226, 252, 255);
+    box-shadow: 2px 4px rgb(58, 108, 109);
+    color: rgb(50, 75, 8);
+    opacity: 0.7;
+    transition: 0.3s all;
+}
+.go_top:hover{
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 2px 5px rgb(58, 108, 109);
+}
+.go_top:active{
+    box-shadow: 2px 2px rgb(58, 108, 109);
+}
+
+.Documentation{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+li{
+  margin-top: 10px;
+  text-align: center;
+  list-style: none;
+  text-shadow: rgb(211, 211, 211) 1px 2px;
+  
+}  
+
+li a:hover{
+    color: rgb(192, 191, 255);
+    font-weight: bolder;
+    text-shadow: rgb(216, 216, 216) 1px 2px;
+
+}
+
+
+@media (max-width:1450px) {
+    li{
+        margin-top: 3px;
+        list-style: none;
+        text-shadow: rgb(211, 211, 211) 1px 2px;
+    }
+    .profile{
+        box-shadow:rgb(204, 204, 204) 0px 0px 10px 5px;
+        border: rgb(54, 128, 146) double 5px;
+        margin: 30px;
+    
+        display: inline-block;
+        transition: all 0.2s;
+    }
+
+
+
+
+
+    footer{
+        position: relative;
+        margin-top: 100px;
+        height: 250px;
+        background-color: paleturquoise;
+        padding: 10px;
+        border-top: rgb(123, 180, 180) solid 5px;
+    }
+    .btn{
+        text-align: center;
+        margin: 5px;
+        padding:10px 0px;
+        width: 30%;
+        color:white;
+        display:inline-block;
+        opacity:0.8;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: 0.3s;
+        float: left;
+    }
+    .header-logo{
+        height: 350px;
+        width: 350px;
+        margin-top:30px;
+    }
+
+    .list img{
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top:-5px;
+        left:20px;
+        opacity: 0.7;
+        transition: 0.2s;
+    }
+
+    .link{
+        text-decoration-style: none;
+        color: grey;
+        padding:15px 10px;
+        float: left;
+        text-decoration: none;
+        font-weight:bold;
+        transition: 0.3s all;
+        height: 30%;
+    }
+
+    .list{
+        height: 45px;
+        border-bottom: dimgray solid 1px;
+    }
+    .go_top{
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        position: fixed;
+        bottom: 14px;
+        right: 10px;
+        background-color: rgb(226, 252, 255);
+        box-shadow: 2px 4px rgb(58, 108, 109);
+        color: rgb(50, 75, 8);
+        opacity: 0.7;
+        transition: 0.3s all;
+    }
+    .go_top:hover{
+        cursor: pointer;
+        opacity: 1;
+        box-shadow: 2px 5px rgb(58, 108, 109);
+    }
+    .go_top:active{
+        box-shadow: 2px 2px rgb(58, 108, 109);
+    }
+}
+
+
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+body{
+    
+    margin: 0px;
+}
+@media (max-width:480px){
+  li{
+    margin-top: 10px;
+    text-align: center;
+    list-style: none;
+    text-shadow: rgb(211, 211, 211) 1px 2px;
+    
+}
+}
